@@ -1,0 +1,222 @@
+0000.020 (0) Opened log file at time: Wed, 14 Jun 2023 23:03:05 +0000 on https://aryashimi.com
+0000.024 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux server9.hostlino.com 4.18.0-425.10.1.lve.el8.x86_64 #1 SMP Wed Jan 25 12:10:58 EST 2023 x86_64) MySQL: 8.0.33-cll-lve (max packet size=268435456) WPLANG: fa_IR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 12M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.095 (0) Free space on disk containing Updraft's temporary directory: 130997.6 MB
+0000.098 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: weekly)
+0000.101 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.142 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1685574717, seconds_ago=1209068)
+0000.147 (0) Set semaphore last lock (d) time to 2023-06-14 23:03:05
+0000.148 (0) Semaphore lock (d) complete
+0000.198 (0) Backup run: resumption=0, nonce=ac315e136abf, file_nonce=ac315e136abf begun at=1686783785 (0s ago), job type=backup
+0000.202 (0) Scheduling a resumption (1) after 388 seconds (1686784173) in case this run gets aborted
+0000.242 (0) This backup run is not intended for files - skipping
+0000.257 (0) Beginning creation of database dump (WordPress DB)
+0000.260 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0000.265 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0007.570 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `hdm_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */; (truncated - 1542 bytes total)
+0007.575 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.616 (0) Table hdm_options: Total expected rows (via COUNT): 237
+0007.619 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.634 (0) Table hdm_options: Rows added in this batch (next record: 1482): 233 (uncompressed bytes in this segment=34567) in 0.03 seconds
+0007.661 (0) Table hdm_options: finishing file(s) (2, 9.5 KB)
+0007.744 (0) Table hdm_users: Total expected rows (via COUNT): 1
+0007.747 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.751 (0) Table hdm_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1411) in 0.08 seconds
+0007.756 (0) Table hdm_users: finishing file(s) (2, 0.6 KB)
+0007.795 (0) Table hdm_usermeta: Total expected rows (via COUNT): 19
+0007.796 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.799 (0) Table hdm_usermeta: Rows added in this batch (next record: 21): 19 (uncompressed bytes in this segment=1769) in 0.04 seconds
+0007.807 (0) Table hdm_usermeta: finishing file(s) (2, 1 KB)
+0007.851 (0) Table hdm_commentmeta: Total expected rows (via COUNT): 0
+0007.855 (0) Table hdm_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.04 seconds
+0007.891 (0) Table hdm_commentmeta: finishing file(s) (2, 0.4 KB)
+0008.019 (0) Table hdm_comments: Total expected rows (via COUNT): 1
+0008.023 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.032 (0) Table hdm_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2270) in 0.13 seconds
+0008.043 (0) Table hdm_comments: finishing file(s) (2, 0.9 KB)
+0008.108 (0) Table hdm_links: Total expected rows (via COUNT): 0
+0008.116 (0) Table hdm_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1304) in 0.06 seconds
+0008.141 (0) Table hdm_links: finishing file(s) (2, 0.5 KB)
+0008.218 (0) Table hdm_postmeta: Total expected rows (via COUNT): 2
+0008.220 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.223 (0) Table hdm_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=789) in 0.07 seconds
+0008.267 (0) Table hdm_postmeta: finishing file(s) (2, 0.4 KB)
+0008.301 (0) Table hdm_posts: Total expected rows (via COUNT): 3
+0008.303 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.307 (0) Table hdm_posts: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=13424) in 0.03 seconds
+0008.315 (0) Table hdm_posts: finishing file(s) (2, 3.7 KB)
+0008.327 (0) Table hdm_term_relationships: Total expected rows (approximate): 7
+0008.333 (0) Table hdm_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=757) in 0.01 seconds
+0008.340 (0) Table hdm_term_relationships: finishing file(s) (2, 0.4 KB)
+0008.387 (0) Table hdm_term_taxonomy: Total expected rows (via COUNT): 4
+0008.391 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.399 (0) Table hdm_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1113) in 0.02 seconds
+0008.416 (0) Table hdm_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0008.461 (0) Table hdm_termmeta: Total expected rows (via COUNT): 0
+0008.467 (0) Table hdm_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=656) in 0.04 seconds
+0008.477 (0) Table hdm_termmeta: finishing file(s) (2, 0.4 KB)
+0008.490 (0) Table hdm_terms: Total expected rows (via COUNT): 4
+0008.493 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.499 (0) Table hdm_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=917) in 0.01 seconds
+0008.506 (0) Table hdm_terms: finishing file(s) (2, 0.5 KB)
+0008.675 (0) Table hdm_aiowps_audit_log: Total expected rows (via COUNT): 10
+0008.677 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.782 (0) Table hdm_aiowps_audit_log: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=68533) in 0.27 seconds
+0008.789 (0) Table hdm_aiowps_audit_log: finishing file(s) (2, 7.1 KB)
+0008.825 (0) Table hdm_aiowps_debug_log: Total expected rows (via COUNT): 0
+0008.829 (0) Table hdm_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.03 seconds
+0008.843 (0) Table hdm_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0008.907 (0) Table hdm_aiowps_events: Total expected rows (via COUNT): 0
+0008.912 (0) Table hdm_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1017) in 0.05 seconds
+0008.976 (0) Table hdm_aiowps_events: finishing file(s) (2, 0.4 KB)
+0009.052 (0) Table hdm_aiowps_global_meta: Total expected rows (via COUNT): 0
+0009.065 (0) Table hdm_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1194) in 0.07 seconds
+0009.079 (0) Table hdm_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0009.148 (0) Table hdm_aiowps_login_activity: Total expected rows (via COUNT): 1
+0009.151 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.160 (0) Table hdm_aiowps_login_activity: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1107) in 0.07 seconds
+0009.177 (0) Table hdm_aiowps_login_activity: finishing file(s) (2, 0.5 KB)
+0009.203 (0) Table hdm_aiowps_login_lockdown: Total expected rows (via COUNT): 0
+0009.211 (0) Table hdm_aiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1210) in 0.01 seconds
+0009.272 (0) Table hdm_aiowps_login_lockdown: finishing file(s) (2, 0.5 KB)
+0009.315 (0) Table hdm_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0009.320 (0) Table hdm_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.04 seconds
+0009.330 (0) Table hdm_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0009.409 (0) Table hdm_wsal_metadata: Total expected rows (via COUNT): 20
+0009.412 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.433 (0) Table hdm_wsal_metadata: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2469) in 0.08 seconds
+0009.461 (0) Table hdm_wsal_metadata: finishing file(s) (2, 1.1 KB)
+0009.547 (0) Table hdm_wsal_occurrences: Total expected rows (via COUNT): 6
+0009.550 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0009.556 (0) Table hdm_wsal_occurrences: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2819) in 0.08 seconds
+0009.594 (0) Table hdm_wsal_occurrences: finishing file(s) (2, 0.8 KB)
+0009.603 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_options.table.tmpr1483.gz (1/21/fopen): adding to final database dump
+0009.607 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_options.table.gz (2/21/fopen): adding to final database dump
+0009.610 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_users.table.tmpr2.gz (3/21/fopen): adding to final database dump
+0009.613 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_users.table.gz (4/21/fopen): adding to final database dump
+0009.615 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_usermeta.table.tmpr22.gz (5/21/fopen): adding to final database dump
+0009.618 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_usermeta.table.gz (6/21/fopen): adding to final database dump
+0009.621 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_commentmeta.table.tmpr0.gz (7/21/fopen): adding to final database dump
+0009.624 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_commentmeta.table.gz (8/21/fopen): adding to final database dump
+0009.626 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_comments.table.tmpr2.gz (9/21/fopen): adding to final database dump
+0009.629 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_comments.table.gz (10/21/fopen): adding to final database dump
+0009.632 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_links.table.tmpr0.gz (11/21/fopen): adding to final database dump
+0009.635 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_links.table.gz (12/21/fopen): adding to final database dump
+0009.638 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_postmeta.table.tmpr3.gz (13/21/fopen): adding to final database dump
+0009.640 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_postmeta.table.gz (14/21/fopen): adding to final database dump
+0009.643 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_posts.table.tmpr4.gz (15/21/fopen): adding to final database dump
+0009.646 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_posts.table.gz (16/21/fopen): adding to final database dump
+0009.648 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_term_relationships.table.tmpr100001.gz (17/21/fopen): adding to final database dump
+0009.651 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_term_relationships.table.gz (18/21/fopen): adding to final database dump
+0009.653 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_term_taxonomy.table.tmpr5.gz (19/21/fopen): adding to final database dump
+0009.656 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_term_taxonomy.table.gz (20/21/fopen): adding to final database dump
+0009.659 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_termmeta.table.tmpr0.gz (21/21/fopen): adding to final database dump
+0009.668 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_termmeta.table.gz (22/21/fopen): adding to final database dump
+0009.670 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_terms.table.tmpr5.gz (23/21/fopen): adding to final database dump
+0009.673 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_terms.table.gz (24/21/fopen): adding to final database dump
+0009.675 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_audit_log.table.tmpr11.gz (25/21/fopen): adding to final database dump
+0009.679 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_audit_log.table.gz (26/21/fopen): adding to final database dump
+0009.682 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_debug_log.table.tmpr0.gz (27/21/fopen): adding to final database dump
+0009.684 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_debug_log.table.gz (28/21/fopen): adding to final database dump
+0009.687 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_events.table.tmpr0.gz (29/21/fopen): adding to final database dump
+0009.690 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_events.table.gz (30/21/fopen): adding to final database dump
+0009.693 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_global_meta.table.tmpr0.gz (31/21/fopen): adding to final database dump
+0009.695 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_global_meta.table.gz (32/21/fopen): adding to final database dump
+0009.698 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_login_activity.table.tmpr2.gz (33/21/fopen): adding to final database dump
+0009.714 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_login_activity.table.gz (34/21/fopen): adding to final database dump
+0009.717 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_login_lockdown.table.tmpr0.gz (35/21/fopen): adding to final database dump
+0009.720 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_login_lockdown.table.gz (36/21/fopen): adding to final database dump
+0009.722 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_permanent_block.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0009.725 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_aiowps_permanent_block.table.gz (38/21/fopen): adding to final database dump
+0009.727 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_wsal_metadata.table.tmpr21.gz (39/21/fopen): adding to final database dump
+0009.730 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_wsal_metadata.table.gz (40/21/fopen): adding to final database dump
+0009.733 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_wsal_occurrences.table.tmpr7.gz (41/21/fopen): adding to final database dump
+0009.736 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db-table-hdm_wsal_occurrences.table.gz (42/21/fopen): adding to final database dump
+0009.842 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz: finished writing out complete database file (30.5 KB)
+0009.889 (0) Total database tables backed up: 21 (backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz, size: 31378, sha1: 8592b722845a0a56ca164991cc6c92dfb67ce5dc, sha256: b3cb5aaefc46f77aa0928fe38fc101799000a9ee0c900e0c60961b18a92e9a94)
+0009.909 (0) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.912 (0) Saving backup history. Total backup size: 30.6 KB
+0009.921 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0009.929 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0009.932 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+0010.328 (0) FTP: upload attempt: backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz
+0070.533 (0) PHP event: code E_WARNING: ftp_nb_fput(): Connection timed out (line 93, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0070.593 (0) FTP upload: error (0)
+0070.596 (0) FTP: ERROR: FTP upload failed
+0070.600 (0) An error condition has occurred for the first time during this job
+0070.608 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0070.613 (0) Number of backup sets in history: 5; groups (db): 1
+0070.616 (0) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0070.619 (0) This backup set is the backup set just made, so will not be deleted.
+0070.619 (0) Examining (for databases) backup set with group_id=0, nonce=c2149e681c6b, datestamp=1686698487 (Jun 13 2023 23:21:27)
+0070.619 (0) Examining (for databases) backup set with group_id=0, nonce=17106e2bd04d, datestamp=1686611704 (Jun 12 2023 23:15:04)
+0070.620 (0) Examining (for databases) backup set with group_id=0, nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+0070.620 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0070.622 (0) Examining (for databases) backup set with group_id=0, nonce=7d2009ae198b, datestamp=1685574716 (May 31 2023 23:11:56)
+0070.622 (0) 1685574716: db: this set includes a database (backup_2023-05-31-2311_aryashimicom_7d2009ae198b-db.gz); db count is now 2
+0070.622 (0) 1685574716: db: over retain limit (2); will delete this database
+0130.683 (0) FTP: delete: failed (public_html/aryashimi.com/backup_2023-05-31-2311_aryashimicom_7d2009ae198b-db.gz)
+0130.707 (0) This backup set is now empty; will remove from history
+0130.711 (0) Deleting log file (log.7d2009ae198b.txt)
+0130.714 (0) Number of backup sets in history: 4; groups (files): 1
+0130.717 (0) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0130.720 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0130.723 (0) Examining (for files) backup set with nonce=c2149e681c6b, datestamp=1686698487 (Jun 13 2023 23:21:27)
+0130.723 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0130.726 (0) Examining (for files) backup set with nonce=17106e2bd04d, datestamp=1686611704 (Jun 12 2023 23:15:04)
+0130.726 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0130.726 (0) Examining (for files) backup set with nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+0130.726 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0130.729 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0141.352 (0) Resume backup (ac315e136abf, 0): finish run
+0141.358 (0) Decremented the semaphore (d) by 1
+0141.360 (0) Semaphore (d) unlocked
+0141.362 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0141.367 (0) Rescheduling resumption 1: moving to 60 seconds from now (1686783986)
+0141.370 (0) No email will/can be sent - the user has not configured an email address.
+0141.371 (0) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+1436.432 (1) Opened log file at time: Wed, 14 Jun 2023 23:27:01 +0000 on http://aryashimi.com
+1436.439 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux server9.hostlino.com 4.18.0-425.10.1.lve.el8.x86_64 #1 SMP Wed Jan 25 12:10:58 EST 2023 x86_64) MySQL: 8.0.33-cll-lve (max packet size=268435456) WPLANG: fa_IR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.4M | 12M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+1436.521 (1) Free space on disk containing Updraft's temporary directory: 130952.9 MB
+1436.526 (1) Requesting backup semaphore lock (ac315e136abf)
+1436.534 (1) [Debug] Lock option (updraft_lock_ac315e136abf, hdm_options) was created in the database
+1436.536 (1) [Info] Lock (updraft_lock_ac315e136abf, hdm_options) acquired after initialising the database
+1436.544 (1) Backup run: resumption=1, nonce=ac315e136abf, file_nonce=ac315e136abf begun at=1686783785 (1437s ago), job type=backup, previous check-in=130.67s
+1436.547 (1) Long time past since expected resumption time: approx expected=1686784304.3, now=1686785221.9, diff=917.6
+1436.553 (1) [Warning] وب سایت شما به ندرت بازدید می شود و این افزونه منابعی که به آن امیدوار بود دریافت نمی کند، لطفا این صفحه را بخوانید: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1436.580 (1) Scheduling a resumption (2) after 388 seconds (1686785610) in case this run gets aborted
+1436.588 (1) This backup run is not intended for files - skipping
+1436.591 (1) Database dump (WordPress DB): Creation was completed already
+1436.594 (1) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+1436.613 (1) backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz: db: This file has not yet been successfully uploaded: will queue
+1436.616 (1) Saving backup history. Total backup size: 30.6 KB
+1436.624 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+1436.645 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+1436.648 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+1437.054 (1) FTP: upload attempt: backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz
+1437.587 (1) FTP: upload attempt successful (30.6KB in 0.53s)
+1437.598 (1) Recording as successfully uploaded: backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz
+1437.606 (1) Deleting local file: backup_2023-06-14-2303_aryashimicom_ac315e136abf-db.gz: OK
+1437.623 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1437.628 (1) Number of backup sets in history: 4; groups (db): 1
+1437.631 (1) Examining (for databases) backup set with group_id=0, nonce=896acf77d2a3, datestamp=1686783926 (Jun 14 2023 23:05:26)
+1437.634 (1) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+1437.634 (1) This backup set is the backup set just made, so will not be deleted.
+1437.634 (1) Examining (for databases) backup set with group_id=0, nonce=c2149e681c6b, datestamp=1686698487 (Jun 13 2023 23:21:27)
+1437.634 (1) Examining (for databases) backup set with group_id=0, nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+1437.634 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+1437.636 (1) Number of backup sets in history: 4; groups (files): 1
+1437.640 (1) Examining (for files) backup set with nonce=896acf77d2a3, datestamp=1686783926 (Jun 14 2023 23:05:26)
+1437.640 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1437.643 (1) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+1437.643 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+1437.645 (1) Examining (for files) backup set with nonce=c2149e681c6b, datestamp=1686698487 (Jun 13 2023 23:21:27)
+1437.646 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+1437.648 (1) Examining (for files) backup set with nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+1437.648 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+1437.651 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1437.733 (1) Resume backup (ac315e136abf, 1): finish run
+1437.741 (1) [Info] Lock option (updraft_lock_ac315e136abf, hdm_options) released
+1437.746 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+1437.766 (1) The backup apparently succeeded (with warnings) and is now complete
+1437.769 (1) No email will/can be sent - the user has not configured an email address.
+1437.772 (1) پشتیبان گیری ظاهرا موفقیت آمیز بود (با اخطارهایی) و هم اکنون به پایان رسید

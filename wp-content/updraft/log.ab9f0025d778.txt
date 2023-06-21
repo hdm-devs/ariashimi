@@ -1,0 +1,211 @@
+0000.000 (0) Opened log file at time: Tue, 20 Jun 2023 22:43:59 +0000 on https://aryashimi.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux server9.hostlino.com 4.18.0-425.10.1.lve.el8.x86_64 #1 SMP Wed Jan 25 12:10:58 EST 2023 x86_64) MySQL: 8.0.33-cll-lve (max packet size=268435456) WPLANG: fa_IR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.5M | 14M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.160 (0) Free space on disk containing Updraft's temporary directory: 185396.3 MB
+0000.165 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: weekly)
+0000.168 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.238 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1687216115, seconds_ago=84924)
+0000.249 (0) Set semaphore last lock (f) time to 2023-06-20 22:43:59
+0000.252 (0) Semaphore lock (f) complete
+0000.294 (0) Backup run: resumption=0, nonce=ab9f0025d778, file_nonce=ab9f0025d778 begun at=1687301039 (0s ago), job type=backup
+0000.300 (0) Scheduling a resumption (1) after 300 seconds (1687301339) in case this run gets aborted
+0000.342 (0) Checking if we have a zip executable available
+0000.357 (0) Testing: /usr/bin/zip
+0000.368 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.371 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.373 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.374 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.375 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.393 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.397 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.459 (0) Working binary zip found: /usr/bin/zip
+0000.466 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.469 (0) Creation of backups of directories: beginning
+0000.479 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.953 (0) Total entities for the zip file: 430 directories, 2634 files (0 skipped as non-modified), 38.7 MB
+0001.963 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.970 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.978 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.001 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.008 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.015 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.022 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.029 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.037 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.045 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.047 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.1 MB, 2634 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0033.517 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: size is now: 7.20 MB
+0033.533 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1100 files added (on-disk size: 7343.1 KB)
+0033.546 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1200 files added (on-disk size: 7343.1 KB)
+0033.559 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1300 files added (on-disk size: 7343.1 KB)
+0033.570 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1400 files added (on-disk size: 7343.1 KB)
+0033.581 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1500 files added (on-disk size: 7343.1 KB)
+0033.592 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1600 files added (on-disk size: 7343.1 KB)
+0033.603 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1700 files added (on-disk size: 7343.1 KB)
+0033.614 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1800 files added (on-disk size: 7343.1 KB)
+0033.625 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 1900 files added (on-disk size: 7343.1 KB)
+0033.636 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2000 files added (on-disk size: 7343.1 KB)
+0033.640 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.2 MB, 2634 files batched, 1001 (2002) added so far); re-opening (prior size: 7343.1 KB)
+0055.312 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: size is now: 9.80 MB
+0055.330 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2100 files added (on-disk size: 9990.4 KB)
+0055.341 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2200 files added (on-disk size: 9990.4 KB)
+0055.352 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2300 files added (on-disk size: 9990.4 KB)
+0055.363 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2400 files added (on-disk size: 9990.4 KB)
+0055.374 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2500 files added (on-disk size: 9990.4 KB)
+0055.385 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: 2600 files added (on-disk size: 9990.4 KB)
+0075.969 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.tmp: size is now: 13.20 MB
+0076.043 (0) Creating zip file manifest (backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.list-temp.tmp)
+0076.169 (0) Successfully created zip file manifest (size: 213438)
+0076.441 (0) Created plugins zip (0) - 13497.7 KB in 75.9 s (177.9 KB/s) (sha1: 3331aa1754ee1c8fad83e114bfadc4ec02797191, sha256: 06bd4a19a6968349b7b7184452932dc387ab5af5a79d8aae06684493bffd74cb)
+0076.452 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0076.454 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+0076.810 (0) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip
+0136.988 (0) PHP event: code E_WARNING: ftp_nb_fput(): Connection timed out (line 93, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0137.022 (0) FTP upload: error (0)
+0137.024 (0) FTP: ERROR: FTP upload failed
+0137.026 (0) An error condition has occurred for the first time during this job
+0197.037 (0) PHP event: code E_WARNING: ftp_close(): Connection timed out (line 237, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0197.075 (0) Beginning creation of dump of themes (split every: 400 MB)
+0197.258 (0) Total entities for the zip file: 84 directories, 382 files (0 skipped as non-modified), 12.5 MB
+0197.271 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0197.282 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0197.292 (0) Zip: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0220.460 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.tmp: size is now: 10.50 MB
+0220.481 (0) Creating zip file manifest (backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.list-temp.tmp)
+0220.514 (0) Successfully created zip file manifest (size: 27198)
+0220.773 (0) Created themes zip (0) - 10788.3 KB in 23.6 s (457.2 KB/s) (sha1: 28d27c112e867bb66c77be2bcfa48f5953ae2fa5, sha256: e3646ef8b1e8fab3841db479f8d358b7960f9556db0cb98922aa48ddae209284)
+0220.781 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0220.796 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+0221.150 (0) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip
+0281.327 (0) PHP event: code E_WARNING: ftp_nb_fput(): Connection timed out (line 93, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0281.332 (0) FTP upload: error (0)
+0281.335 (0) FTP: ERROR: FTP upload failed
+0341.387 (0) PHP event: code E_WARNING: ftp_close(): Connection timed out (line 237, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0341.399 (0) No backup of uploads: excluded by user's options
+0341.402 (0) No backup of others: excluded by user's options
+0341.417 (0) Saving backup status to database (elements: 4)
+0341.428 (0) No database backup (wp) - not part of this run
+0341.437 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0341.441 (0) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0341.444 (0) Saving backup history. Total backup size: 23.7 MB
+0341.476 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0341.495 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0341.498 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+0341.891 (0) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip
+0402.048 (0) PHP event: code E_WARNING: ftp_nb_fput(): Connection timed out (line 93, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0402.053 (0) FTP upload: error (0)
+0402.056 (0) FTP: ERROR: FTP upload failed
+0402.059 (0) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip
+0462.122 (0) PHP event: code E_WARNING: ftp_nb_fput(): Connection timed out (line 93, wp-content/plugins/updraftplus/includes/ftp.class.php)
+0462.131 (0) FTP upload: error (0)
+0462.133 (0) FTP: ERROR: FTP upload failed
+0462.138 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0462.140 (0) Number of backup sets in history: 5; groups (db): 1
+0462.142 (0) Examining (for databases) backup set with group_id=0, nonce=ab9f0025d778, datestamp=1687301039 (Jun 20 2023 22:43:59)
+0462.144 (0) Examining (for databases) backup set with group_id=0, nonce=bfda24a26f20, datestamp=1687216115 (Jun 19 2023 23:08:35)
+0462.144 (0) Examining (for databases) backup set with group_id=0, nonce=3943c66c7c3c, datestamp=1687128556 (Jun 18 2023 22:49:16)
+0462.144 (0) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0462.144 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0462.176 (0) Examining (for databases) backup set with group_id=0, nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+0462.176 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0462.176 (0) Number of backup sets in history: 5; groups (files): 1
+0462.179 (0) Examining (for files) backup set with nonce=ab9f0025d778, datestamp=1687301039 (Jun 20 2023 22:43:59)
+0462.179 (0) This backup set is the backup set just made, so will not be deleted.
+0462.181 (0) This backup set is the backup set just made, so will not be deleted.
+0462.181 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0462.183 (0) Examining (for files) backup set with nonce=bfda24a26f20, datestamp=1687216115 (Jun 19 2023 23:08:35)
+0462.183 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0462.183 (0) Examining (for files) backup set with nonce=3943c66c7c3c, datestamp=1687128556 (Jun 18 2023 22:49:16)
+0462.183 (0) plugins: over retain limit (2); will delete this file entity
+0462.183 (0) themes: over retain limit (2); will delete this file entity
+0472.151 (0) FTP: delete: failed (public_html/aryashimi.com/backup_2023-06-18-2249_aryashimicom_3943c66c7c3c-plugins.zip)
+0472.156 (0) FTP: delete: failed (public_html/aryashimi.com/backup_2023-06-18-2249_aryashimicom_3943c66c7c3c-themes.zip)
+0472.221 (0) The time we have been running (472.2) is approaching the resumption interval (300) - increasing resumption interval to 503
+0472.227 (0) This backup set is now empty; will remove from history
+0472.231 (0) Deleting log file (log.3943c66c7c3c.txt)
+0472.315 (0) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0472.319 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0472.322 (0) Examining (for files) backup set with nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+0472.322 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0472.322 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0472.344 (0) Resume backup (ab9f0025d778, 0): finish run
+0472.371 (0) Decremented the semaphore (f) by 1
+0472.377 (0) Semaphore (f) unlocked
+0472.380 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0472.392 (0) No email will/can be sent - the user has not configured an email address.
+0472.396 (0) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+5721.037 (1) Opened log file at time: Wed, 21 Jun 2023 00:19:20 +0000 on http://aryashimi.com
+5721.041 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 7.4.33 (litespeed, Linux server9.hostlino.com 4.18.0-425.10.1.lve.el8.x86_64 #1 SMP Wed Jan 25 12:10:58 EST 2023 x86_64) MySQL: 8.0.33-cll-lve (max packet size=268435456) WPLANG: fa_IR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.5M | 12M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: N
+5721.139 (1) Free space on disk containing Updraft's temporary directory: 185282.5 MB
+5721.142 (1) Requesting backup semaphore lock (ab9f0025d778)
+5721.146 (1) [Debug] Lock option (updraft_lock_ab9f0025d778, hdm_options) was created in the database
+5721.148 (1) [Info] Lock (updraft_lock_ab9f0025d778, hdm_options) acquired after initialising the database
+5721.153 (1) Backup run: resumption=1, nonce=ab9f0025d778, file_nonce=ab9f0025d778 begun at=1687301039 (5721s ago), job type=backup, previous check-in=472.17s
+5721.154 (1) Long time past since expected resumption time: approx expected=1687302015, now=1687306760.6, diff=4745.6
+5721.167 (1) [Warning] وب سایت شما به ندرت بازدید می شود و این افزونه منابعی که به آن امیدوار بود دریافت نمی کند، لطفا این صفحه را بخوانید: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5721.172 (1) Scheduling a resumption (2) after 503 seconds (1687307263) in case this run gets aborted
+5721.176 (1) Checking if we have a zip executable available
+5721.178 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+5721.180 (1) Creation of backups of directories: already finished
+5721.182 (1) Saving backup status to database (elements: 4)
+5721.188 (1) No database backup (wp) - not part of this run
+5721.191 (1) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5721.193 (1) backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5721.195 (1) Saving backup history. Total backup size: 23.7 MB
+5721.201 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+5721.233 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+5721.236 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-f336e2bd66a0212bdc2b83a00227b4ef)
+5721.315 (1) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip
+5722.235 (1) Ftp chunked upload: 3.8 % uploaded
+5723.110 (1) Ftp chunked upload: 7.6 % uploaded
+5723.198 (1) Ftp chunked upload: 11.5 % uploaded
+5723.287 (1) Ftp chunked upload: 15.3 % uploaded
+5723.465 (1) Ftp chunked upload: 22.9 % uploaded
+5723.589 (1) Ftp chunked upload: 30.5 % uploaded
+5723.770 (1) Ftp chunked upload: 45.7 % uploaded
+5723.944 (1) Ftp chunked upload: 60.9 % uploaded
+5724.111 (1) Ftp chunked upload: 76.1 % uploaded
+5724.256 (1) Ftp chunked upload: 91.3 % uploaded
+5724.590 (1) FTP: upload attempt successful (13497.7KB in 3.27s)
+5724.595 (1) Recording as successfully uploaded: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip
+5724.612 (1) Deleting local file: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip: OK
+5724.623 (1) FTP: upload attempt: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip -> ftp://pz16188@130.185.79.155/public_html/aryashimi.com/backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip
+5724.973 (1) Ftp chunked upload: 4.8 % uploaded
+5725.040 (1) Ftp chunked upload: 9.6 % uploaded
+5725.145 (1) Ftp chunked upload: 14.3 % uploaded
+5725.209 (1) Ftp chunked upload: 19.1 % uploaded
+5725.345 (1) Ftp chunked upload: 28.7 % uploaded
+5725.446 (1) Ftp chunked upload: 38.2 % uploaded
+5725.582 (1) Ftp chunked upload: 57.2 % uploaded
+5725.710 (1) Ftp chunked upload: 76.2 % uploaded
+5725.864 (1) Ftp chunked upload: 95.2 % uploaded
+5725.999 (1) FTP: upload attempt successful (10788.3KB in 1.37s)
+5726.004 (1) Recording as successfully uploaded: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip
+5726.018 (1) Deleting local file: backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip: OK
+5726.029 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5726.034 (1) Number of backup sets in history: 4; groups (db): 1
+5726.036 (1) Examining (for databases) backup set with group_id=0, nonce=ab9f0025d778, datestamp=1687301039 (Jun 20 2023 22:43:59)
+5726.038 (1) Examining (for databases) backup set with group_id=0, nonce=bfda24a26f20, datestamp=1687216115 (Jun 19 2023 23:08:35)
+5726.038 (1) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+5726.038 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5726.039 (1) Examining (for databases) backup set with group_id=0, nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+5726.039 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5726.039 (1) Number of backup sets in history: 4; groups (files): 1
+5726.040 (1) Examining (for files) backup set with nonce=ab9f0025d778, datestamp=1687301039 (Jun 20 2023 22:43:59)
+5726.040 (1) This backup set is the backup set just made, so will not be deleted.
+5726.042 (1) This backup set is the backup set just made, so will not be deleted.
+5726.042 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+5726.044 (1) Examining (for files) backup set with nonce=bfda24a26f20, datestamp=1687216115 (Jun 19 2023 23:08:35)
+5726.044 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+5726.044 (1) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+5726.044 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5726.046 (1) Examining (for files) backup set with nonce=e0892e493e6d, datestamp=1686178133 (Jun 07 2023 22:48:53)
+5726.046 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+5726.046 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5726.064 (1) Resume backup (ab9f0025d778, 1): finish run
+5726.068 (1) [Info] Lock option (updraft_lock_ab9f0025d778, hdm_options) released
+5726.072 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+5726.078 (1) The backup apparently succeeded (with warnings) and is now complete
+5726.079 (1) Deleting zip manifest (backup_2023-06-20-2243_aryashimicom_ab9f0025d778-plugins.zip.list.tmp)
+5726.081 (1) Deleting zip manifest (backup_2023-06-20-2243_aryashimicom_ab9f0025d778-themes.zip.list.tmp)
+5726.083 (1) No email will/can be sent - the user has not configured an email address.
+5726.085 (1) پشتیبان گیری ظاهرا موفقیت آمیز بود (با اخطارهایی) و هم اکنون به پایان رسید
