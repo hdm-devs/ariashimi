@@ -8,7 +8,7 @@
         if(!is_home()){
             if(is_tax()){
                 echo single_cat_title(). ' - ';
-            }
+            } 
             else if(is_category())
             {
                 echo single_cat_title() .' - ';
@@ -29,3 +29,10 @@
 
 </head>
 <body <?=body_class();?>>
+<header>
+    <div class="row">
+        <div class="col-md-9">
+            <a href=""></a>
+        </div>
+    </div>
+</header>
