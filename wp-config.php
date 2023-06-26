@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'aryashimi_hdm' );
 
 /** Database username */
-define( 'DB_USER', 'aryashimi_hdm' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '@8]vD}twxps8' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
