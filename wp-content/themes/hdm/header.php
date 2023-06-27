@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
     <?php wp_head();?>
@@ -32,7 +32,7 @@
 <header>
     <div class="row">
         <div class="col-md-9">
-            <a href=""></a>
+            <a href="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png"></a>
         </div>
     </div>
 </header>
