@@ -29,10 +29,18 @@
 
 </head>
 <body <?=body_class();?>>
+
 <header>
-    <div class="row">
-        <div class="col-md-9">
-            <a href="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png"></a>
+    <div class="Logo">
+        <div class="col-md-2">
+            <a href="http://aryashimi.com" >
+                <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png" alt="">
+            </a>
+        </div>
+        <div class="col-md-6">
+             <div class="navMenu">
+             <?=wp_nav_menu(array("theme_location" => "main_menu" , "menu_class" => "mobile_main_menu"))?>
+             </div>
         </div>
     </div>
 </header>
