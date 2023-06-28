@@ -1,0 +1,518 @@
+0000.001 (0) Opened log file at time: Wed, 28 Jun 2023 08:11:08 +0000 on http://localhost/ariashimi
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 46.8M | 48M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 33484.9 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: weekly)
+0000.018 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.121 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1687851214, seconds_ago=88654)
+0000.127 (0) Set semaphore last lock (f) time to 2023-06-28 08:11:08
+0000.129 (0) Semaphore lock (f) complete
+0000.134 (0) Backup run: resumption=0, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (0s ago), job type=backup
+0000.137 (0) Scheduling a resumption (1) after 300 seconds (1687940168) in case this run gets aborted
+0000.202 (0) Checking if we have a zip executable available
+0000.206 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.208 (0) Creation of backups of directories: beginning
+0000.214 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.089 (0) Total entities for the zip file: 425 directories, 2635 files (0 skipped as non-modified), 39.6 MB
+0001.091 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 40556.1 KB, split: 409600 KB)
+0001.177 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.203 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.228 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.254 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.280 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.306 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.330 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.356 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.381 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.406 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.432 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0001.457 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0001.485 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.516 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.551 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.581 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.613 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.651 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0001.685 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0001.717 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.746 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.775 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.804 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.832 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.859 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.888 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0054.887 (0) Creating zip file manifest (backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip.list-temp.tmp)
+0054.898 (0) Successfully created zip file manifest (size: 213533)
+0055.018 (0) Created plugins zip (0) - 13148.5 KB in 54.8 s (239.9 KB/s) (sha1: 9098253f46abdf4ce42ad962118c714a826fe941, sha256: c3b311ed614b1c7bdb0881f54a71d0c29a340f212f22161d7568eb6825eef6ac)
+0055.026 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0055.027 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+0055.029 (0) Error message: هیچ تنظیمات FTP پیدا نشد.
+0055.030 (0) An error condition has occurred for the first time during this job
+0055.035 (0) Beginning creation of dump of themes (split every: 400 MB)
+0055.144 (0) Total entities for the zip file: 81 directories, 384 files (0 skipped as non-modified), 12.5 MB
+0055.145 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 12815.9 KB, split: 409600 KB)
+0055.173 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0055.198 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0055.223 (0) Zip: backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0061.768 (0) Creating zip file manifest (backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip.list-temp.tmp)
+0061.773 (0) Successfully created zip file manifest (size: 27272)
+0061.885 (0) Created themes zip (0) - 10712.2 KB in 6.8 s (1565.1 KB/s) (sha1: 2f00acaaf661a92ed2735afa7baf8c7fb9198683, sha256: 327711fe4683a2e44982c0eead4fc41ba23af41bc07bab414f4dadd797ab29e8)
+0061.891 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0061.892 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+0061.894 (0) Error message: هیچ تنظیمات FTP پیدا نشد.
+0061.898 (0) No backup of uploads: excluded by user's options
+0061.899 (0) No backup of others: excluded by user's options
+0061.905 (0) Saving backup status to database (elements: 4)
+0061.909 (0) No database backup (wp) - not part of this run
+0061.912 (0) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0061.914 (0) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0061.915 (0) Saving backup history. Total backup size: 23.3 MB
+0061.919 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0061.922 (0) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+0061.924 (0) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+0061.925 (0) Error message: هیچ تنظیمات FTP پیدا نشد.
+0061.928 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0061.929 (0) Number of backup sets in history: 5; groups (db): 1
+0061.930 (0) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+0061.931 (0) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+0061.931 (0) Examining (for databases) backup set with group_id=0, nonce=db59de4970c4, datestamp=1687735722 (Jun 25 2023 23:28:42)
+0061.931 (0) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+0061.931 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0061.933 (0) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0061.933 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0061.933 (0) Number of backup sets in history: 5; groups (files): 1
+0061.934 (0) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+0061.934 (0) This backup set is the backup set just made, so will not be deleted.
+0061.935 (0) This backup set is the backup set just made, so will not be deleted.
+0061.935 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0061.936 (0) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+0061.936 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0061.936 (0) Examining (for files) backup set with nonce=db59de4970c4, datestamp=1687735722 (Jun 25 2023 23:28:42)
+0061.936 (0) plugins: over retain limit (2); will delete this file entity
+0061.936 (0) themes: over retain limit (2); will delete this file entity
+0061.936 (0) Error message: هیچ تنظیمات FTP پیدا نشد.
+0061.938 (0) FTP: Failure: we did not successfully log in with those credentials (host=).
+0061.942 (0) This backup set is now empty; will remove from history
+0061.943 (0) Corresponding log file (log.db59de4970c4.txt) not found - must have already been deleted
+0061.944 (0) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+0061.944 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0061.945 (0) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+0061.945 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0061.945 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0061.949 (0) Resume backup (3107e555a3ac, 0): finish run
+0061.953 (0) Decremented the semaphore (f) by 1
+0061.956 (0) Semaphore (f) unlocked
+0061.959 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0061.961 (0) No email will/can be sent - the user has not configured an email address.
+0061.963 (0) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+3377.030 (1) Opened log file at time: Wed, 28 Jun 2023 09:07:25 +0000 on http://localhost/ariashimi
+3377.033 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+3377.034 (1) Free space on disk containing Updraft's temporary directory: 33480.3 MB
+3377.036 (1) Requesting backup semaphore lock (3107e555a3ac)
+3377.039 (1) [Debug] Lock option (updraft_lock_3107e555a3ac, hdm_options) was created in the database
+3377.040 (1) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired after initialising the database
+3377.044 (1) Backup run: resumption=1, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (3377s ago), job type=backup, previous check-in=61.94s
+3377.046 (1) Long time past since expected resumption time: approx expected=1687940230.6, now=1687943245.5, diff=3015
+3377.049 (1) [Warning] وب سایت شما به ندرت بازدید می شود و این افزونه منابعی که به آن امیدوار بود دریافت نمی کند، لطفا این صفحه را بخوانید: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+3377.052 (1) Scheduling a resumption (2) after 300 seconds (1687943545) in case this run gets aborted
+3377.064 (1) Checking if we have a zip executable available
+3377.065 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+3377.067 (1) Creation of backups of directories: already finished
+3377.068 (1) Saving backup status to database (elements: 4)
+3377.074 (1) No database backup (wp) - not part of this run
+3377.077 (1) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3377.078 (1) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3377.080 (1) Saving backup history. Total backup size: 23.3 MB
+3377.083 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+3377.085 (1) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+3377.087 (1) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+3377.088 (1) Error message: هیچ تنظیمات FTP پیدا نشد.
+3377.089 (1) An error condition has occurred for the first time during this job
+3377.092 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3377.094 (1) Number of backup sets in history: 4; groups (db): 1
+3377.095 (1) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+3377.097 (1) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+3377.097 (1) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+3377.097 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3377.098 (1) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+3377.098 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3377.098 (1) Number of backup sets in history: 4; groups (files): 1
+3377.099 (1) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+3377.099 (1) This backup set is the backup set just made, so will not be deleted.
+3377.100 (1) This backup set is the backup set just made, so will not be deleted.
+3377.100 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3377.102 (1) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+3377.102 (1) This backup set remains non-empty (f=1/d=0); will retain in history
+3377.102 (1) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+3377.102 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3377.103 (1) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+3377.103 (1) This backup set remains non-empty (f=0/d=1); will retain in history
+3377.103 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3377.106 (1) Resume backup (3107e555a3ac, 1): finish run
+3377.109 (1) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+3377.112 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3377.114 (1) No email will/can be sent - the user has not configured an email address.
+3377.115 (1) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+4076.840 (2) Opened log file at time: Wed, 28 Jun 2023 09:19:05 +0000 on http://localhost/ariashimi
+4076.844 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+4076.846 (2) Free space on disk containing Updraft's temporary directory: 33483.1 MB
+4076.848 (2) Requesting backup semaphore lock (3107e555a3ac)
+4076.852 (2) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+4076.855 (2) Backup run: resumption=2, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (4077s ago), job type=backup
+4076.858 (2) Scheduling a resumption (3) after 300 seconds (1687944245) in case this run gets aborted
+4076.873 (2) Checking if we have a zip executable available
+4076.875 (2) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4076.877 (2) Creation of backups of directories: already finished
+4076.879 (2) Saving backup status to database (elements: 4)
+4076.887 (2) No database backup (wp) - not part of this run
+4076.889 (2) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4076.891 (2) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4076.892 (2) Saving backup history. Total backup size: 23.3 MB
+4076.899 (2) Requesting upload of the files that have not yet been successfully uploaded (2)
+4076.905 (2) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+4076.907 (2) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+4076.909 (2) Error message: هیچ تنظیمات FTP پیدا نشد.
+4076.910 (2) An error condition has occurred for the first time during this job
+4076.914 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4076.916 (2) Number of backup sets in history: 4; groups (db): 1
+4076.918 (2) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+4076.920 (2) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+4076.920 (2) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+4076.920 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+4076.921 (2) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+4076.921 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+4076.921 (2) Number of backup sets in history: 4; groups (files): 1
+4076.923 (2) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+4076.923 (2) This backup set is the backup set just made, so will not be deleted.
+4076.924 (2) This backup set is the backup set just made, so will not be deleted.
+4076.924 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+4076.925 (2) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+4076.925 (2) This backup set remains non-empty (f=1/d=0); will retain in history
+4076.925 (2) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+4076.925 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+4076.926 (2) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+4076.926 (2) This backup set remains non-empty (f=0/d=1); will retain in history
+4076.926 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4076.931 (2) Resume backup (3107e555a3ac, 2): finish run
+4076.934 (2) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+4076.937 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4076.939 (2) No email will/can be sent - the user has not configured an email address.
+4076.940 (2) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+4507.929 (3) Opened log file at time: Wed, 28 Jun 2023 09:26:16 +0000 on http://localhost/ariashimi
+4507.932 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+4507.938 (3) Free space on disk containing Updraft's temporary directory: 33473.5 MB
+4507.947 (3) Requesting backup semaphore lock (3107e555a3ac)
+4507.955 (3) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+4507.958 (3) Backup run: resumption=3, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (4508s ago), job type=backup
+4507.961 (3) Scheduling a resumption (4) after 300 seconds (1687944676) in case this run gets aborted
+4507.973 (3) Checking if we have a zip executable available
+4507.975 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+4507.976 (3) Creation of backups of directories: already finished
+4507.978 (3) Saving backup status to database (elements: 4)
+4507.983 (3) No database backup (wp) - not part of this run
+4507.986 (3) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4507.989 (3) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4507.991 (3) Saving backup history. Total backup size: 23.3 MB
+4507.995 (3) Requesting upload of the files that have not yet been successfully uploaded (2)
+4507.998 (3) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+4508.000 (3) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+4508.001 (3) Error message: هیچ تنظیمات FTP پیدا نشد.
+4508.002 (3) An error condition has occurred for the first time during this job
+4508.005 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4508.007 (3) Number of backup sets in history: 4; groups (db): 1
+4508.008 (3) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+4508.010 (3) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+4508.010 (3) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+4508.010 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+4508.011 (3) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+4508.011 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+4508.011 (3) Number of backup sets in history: 4; groups (files): 1
+4508.013 (3) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+4508.013 (3) This backup set is the backup set just made, so will not be deleted.
+4508.014 (3) This backup set is the backup set just made, so will not be deleted.
+4508.014 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+4508.016 (3) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+4508.016 (3) This backup set remains non-empty (f=1/d=0); will retain in history
+4508.016 (3) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+4508.016 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+4508.017 (3) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+4508.017 (3) This backup set remains non-empty (f=0/d=1); will retain in history
+4508.017 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4508.021 (3) Resume backup (3107e555a3ac, 3): finish run
+4508.022 (3) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+4508.024 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4508.027 (3) No email will/can be sent - the user has not configured an email address.
+4508.028 (3) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+7463.333 (4) Opened log file at time: Wed, 28 Jun 2023 10:15:31 +0000 on http://localhost/ariashimi
+7463.334 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+7463.336 (4) Free space on disk containing Updraft's temporary directory: 33474 MB
+7463.338 (4) Requesting backup semaphore lock (3107e555a3ac)
+7463.341 (4) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+7463.344 (4) Backup run: resumption=4, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (7463s ago), job type=backup
+7463.345 (4) Long time past since expected resumption time: approx expected=1687944676.4, now=1687947331.8, diff=2655.4
+7463.346 (4) [Warning] وب سایت شما به ندرت بازدید می شود و این افزونه منابعی که به آن امیدوار بود دریافت نمی کند، لطفا این صفحه را بخوانید: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+7463.349 (4) Scheduling a resumption (5) after 300 seconds (1687947631) in case this run gets aborted
+7463.362 (4) Checking if we have a zip executable available
+7463.363 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+7463.365 (4) Creation of backups of directories: already finished
+7463.367 (4) Saving backup status to database (elements: 4)
+7463.373 (4) No database backup (wp) - not part of this run
+7463.375 (4) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+7463.378 (4) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+7463.379 (4) Saving backup history. Total backup size: 23.3 MB
+7463.382 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+7463.385 (4) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+7463.386 (4) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+7463.388 (4) Error message: هیچ تنظیمات FTP پیدا نشد.
+7463.389 (4) An error condition has occurred for the first time during this job
+7463.392 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+7463.393 (4) Number of backup sets in history: 4; groups (db): 1
+7463.394 (4) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+7463.396 (4) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+7463.396 (4) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+7463.396 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+7463.397 (4) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+7463.397 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+7463.397 (4) Number of backup sets in history: 4; groups (files): 1
+7463.398 (4) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+7463.398 (4) This backup set is the backup set just made, so will not be deleted.
+7463.399 (4) This backup set is the backup set just made, so will not be deleted.
+7463.399 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+7463.400 (4) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+7463.400 (4) This backup set remains non-empty (f=1/d=0); will retain in history
+7463.401 (4) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+7463.401 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+7463.401 (4) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+7463.401 (4) This backup set remains non-empty (f=0/d=1); will retain in history
+7463.401 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+7463.405 (4) Resume backup (3107e555a3ac, 4): finish run
+7463.408 (4) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+7463.410 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+7463.413 (4) No email will/can be sent - the user has not configured an email address.
+7463.414 (4) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+8628.665 (5) Opened log file at time: Wed, 28 Jun 2023 10:34:57 +0000 on http://localhost/ariashimi
+8628.667 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 46.9M | 48M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+8628.668 (5) Free space on disk containing Updraft's temporary directory: 33485.6 MB
+8628.670 (5) Requesting backup semaphore lock (3107e555a3ac)
+8628.673 (5) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+8628.676 (5) Backup run: resumption=5, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (8629s ago), job type=backup
+8628.678 (5) Long time past since expected resumption time: approx expected=1687947631.8, now=1687948497.2, diff=865.3
+8628.679 (5) [Warning] وب سایت شما به ندرت بازدید می شود و این افزونه منابعی که به آن امیدوار بود دریافت نمی کند، لطفا این صفحه را بخوانید: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8628.683 (5) Scheduling a resumption (6) after 300 seconds (1687948797) in case this run gets aborted
+8628.700 (5) Checking if we have a zip executable available
+8628.702 (5) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+8628.704 (5) Creation of backups of directories: already finished
+8628.706 (5) Saving backup status to database (elements: 4)
+8628.712 (5) No database backup (wp) - not part of this run
+8628.715 (5) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8628.716 (5) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8628.717 (5) Saving backup history. Total backup size: 23.3 MB
+8628.721 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+8628.723 (5) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+8628.725 (5) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+8628.726 (5) Error message: هیچ تنظیمات FTP پیدا نشد.
+8628.728 (5) An error condition has occurred for the first time during this job
+8628.731 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+8628.732 (5) Number of backup sets in history: 4; groups (db): 1
+8628.734 (5) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+8628.735 (5) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+8628.735 (5) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+8628.735 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+8628.736 (5) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+8628.736 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+8628.736 (5) Number of backup sets in history: 4; groups (files): 1
+8628.737 (5) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+8628.737 (5) This backup set is the backup set just made, so will not be deleted.
+8628.739 (5) This backup set is the backup set just made, so will not be deleted.
+8628.739 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+8628.740 (5) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+8628.740 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+8628.740 (5) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+8628.740 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+8628.742 (5) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+8628.742 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+8628.742 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+8628.746 (5) Resume backup (3107e555a3ac, 5): finish run
+8628.747 (5) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+8628.749 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8628.751 (5) No email will/can be sent - the user has not configured an email address.
+8628.753 (5) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+8958.430 (6) Opened log file at time: Wed, 28 Jun 2023 10:40:26 +0000 on http://localhost/ariashimi
+8958.432 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+8958.434 (6) Free space on disk containing Updraft's temporary directory: 33481.9 MB
+8958.436 (6) Requesting backup semaphore lock (3107e555a3ac)
+8958.441 (6) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+8958.445 (6) Backup run: resumption=6, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (8958s ago), job type=backup
+8958.448 (6) Scheduling a resumption (7) after 300 seconds (1687949126) in case this run gets aborted
+8958.463 (6) Checking if we have a zip executable available
+8958.464 (6) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+8958.466 (6) Creation of backups of directories: already finished
+8958.468 (6) Saving backup status to database (elements: 4)
+8958.477 (6) No database backup (wp) - not part of this run
+8958.480 (6) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8958.481 (6) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8958.483 (6) Saving backup history. Total backup size: 23.3 MB
+8958.487 (6) Requesting upload of the files that have not yet been successfully uploaded (2)
+8958.493 (6) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+8958.495 (6) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+8958.497 (6) Error message: هیچ تنظیمات FTP پیدا نشد.
+8958.498 (6) An error condition has occurred for the first time during this job
+8958.502 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+8958.507 (6) Number of backup sets in history: 4; groups (db): 1
+8958.509 (6) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+8958.510 (6) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+8958.510 (6) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+8958.510 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+8958.512 (6) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+8958.512 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+8958.514 (6) Number of backup sets in history: 4; groups (files): 1
+8958.516 (6) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+8958.516 (6) This backup set is the backup set just made, so will not be deleted.
+8958.517 (6) This backup set is the backup set just made, so will not be deleted.
+8958.517 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+8958.519 (6) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+8958.520 (6) This backup set remains non-empty (f=1/d=0); will retain in history
+8958.520 (6) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+8958.520 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+8958.527 (6) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+8958.527 (6) This backup set remains non-empty (f=0/d=1); will retain in history
+8958.527 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+8958.535 (6) Resume backup (3107e555a3ac, 6): finish run
+8958.542 (6) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+8958.545 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+8958.549 (6) No email will/can be sent - the user has not configured an email address.
+8958.550 (6) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+9321.451 (7) Opened log file at time: Wed, 28 Jun 2023 10:46:29 +0000 on http://localhost/ariashimi
+9321.453 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+9321.456 (7) Free space on disk containing Updraft's temporary directory: 33487.8 MB
+9321.459 (7) Requesting backup semaphore lock (3107e555a3ac)
+9321.462 (7) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+9321.467 (7) Backup run: resumption=7, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (9321s ago), job type=backup
+9321.469 (7) Scheduling a resumption (8) after 300 seconds (1687949489) in case this run gets aborted
+9321.489 (7) Checking if we have a zip executable available
+9321.490 (7) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+9321.492 (7) Creation of backups of directories: already finished
+9321.494 (7) Saving backup status to database (elements: 4)
+9321.501 (7) No database backup (wp) - not part of this run
+9321.506 (7) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9321.507 (7) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9321.509 (7) Saving backup history. Total backup size: 23.3 MB
+9321.512 (7) Requesting upload of the files that have not yet been successfully uploaded (2)
+9321.515 (7) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+9321.517 (7) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+9321.518 (7) Error message: هیچ تنظیمات FTP پیدا نشد.
+9321.519 (7) An error condition has occurred for the first time during this job
+9321.524 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9321.527 (7) Number of backup sets in history: 4; groups (db): 1
+9321.528 (7) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+9321.529 (7) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+9321.529 (7) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+9321.530 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+9321.531 (7) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+9321.531 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+9321.531 (7) Number of backup sets in history: 4; groups (files): 1
+9321.532 (7) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+9321.532 (7) This backup set is the backup set just made, so will not be deleted.
+9321.533 (7) This backup set is the backup set just made, so will not be deleted.
+9321.533 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+9321.535 (7) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+9321.535 (7) This backup set remains non-empty (f=1/d=0); will retain in history
+9321.535 (7) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+9321.535 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+9321.536 (7) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+9321.536 (7) This backup set remains non-empty (f=0/d=1); will retain in history
+9321.537 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+9321.542 (7) Resume backup (3107e555a3ac, 7): finish run
+9321.544 (7) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+9321.546 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9321.549 (7) No email will/can be sent - the user has not configured an email address.
+9321.551 (7) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+9684.159 (8) Opened log file at time: Wed, 28 Jun 2023 10:52:32 +0000 on http://localhost/ariashimi
+9684.162 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+9684.164 (8) Free space on disk containing Updraft's temporary directory: 33485.4 MB
+9684.167 (8) Requesting backup semaphore lock (3107e555a3ac)
+9684.170 (8) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+9684.174 (8) Backup run: resumption=8, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (9684s ago), job type=backup
+9684.178 (8) Scheduling a resumption (9) after 300 seconds (1687949852) in case this run gets aborted
+9684.193 (8) Checking if we have a zip executable available
+9684.197 (8) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+9684.199 (8) Creation of backups of directories: already finished
+9684.201 (8) Saving backup status to database (elements: 4)
+9684.208 (8) No database backup (wp) - not part of this run
+9684.211 (8) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+9684.213 (8) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+9684.214 (8) Saving backup history. Total backup size: 23.3 MB
+9684.218 (8) Requesting upload of the files that have not yet been successfully uploaded (2)
+9684.226 (8) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+9684.229 (8) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+9684.231 (8) Error message: هیچ تنظیمات FTP پیدا نشد.
+9684.233 (8) An error condition has occurred for the first time during this job
+9684.237 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9684.240 (8) Number of backup sets in history: 4; groups (db): 1
+9684.241 (8) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+9684.243 (8) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+9684.243 (8) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+9684.243 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+9684.244 (8) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+9684.244 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+9684.244 (8) Number of backup sets in history: 4; groups (files): 1
+9684.246 (8) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+9684.246 (8) This backup set is the backup set just made, so will not be deleted.
+9684.247 (8) This backup set is the backup set just made, so will not be deleted.
+9684.247 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+9684.249 (8) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+9684.249 (8) This backup set remains non-empty (f=1/d=0); will retain in history
+9684.249 (8) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+9684.249 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+9684.250 (8) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+9684.250 (8) This backup set remains non-empty (f=0/d=1); will retain in history
+9684.250 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+9684.254 (8) Resume backup (3107e555a3ac, 8): finish run
+9684.257 (8) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+9684.260 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9684.264 (8) No email will/can be sent - the user has not configured an email address.
+9684.266 (8) بک آپ به پایان نرسید، از سرگیری زمانبندی شد
+10038.057 (9) Opened log file at time: Wed, 28 Jun 2023 10:58:26 +0000 on http://localhost/ariashimi
+10038.059 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.2.2 PHP: 8.2.4 (apache2handler, Windows NT DESKTOP-MAJID 10.0 build 22621 (Windows 11) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: fa_IR Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.8 7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+10038.061 (9) Free space on disk containing Updraft's temporary directory: 33482.8 MB
+10038.063 (9) Requesting backup semaphore lock (3107e555a3ac)
+10038.066 (9) [Info] Lock (updraft_lock_3107e555a3ac, hdm_options) acquired
+10038.070 (9) Backup run: resumption=9, nonce=3107e555a3ac, file_nonce=3107e555a3ac begun at=1687939868 (10038s ago), job type=backup
+10038.073 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+10038.076 (9) Scheduling a resumption (10) after 300 seconds (1687950206); but the job will then be aborted unless something happens this time
+10038.091 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+10038.092 (9) Creation of backups of directories: already finished
+10038.094 (9) Saving backup status to database (elements: 4)
+10038.101 (9) No database backup (wp) - not part of this run
+10038.103 (9) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+10038.105 (9) backup_2023-06-28-0811_localhost_ariashimi_3107e555a3ac-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+10038.106 (9) Saving backup history. Total backup size: 23.3 MB
+10038.110 (9) Requesting upload of the files that have not yet been successfully uploaded (2)
+10038.113 (9) Cloud backup selection (1/1): ftp with instance (1/1) (last)
+10038.115 (9) Beginning dispatch of backup to remote (ftp) (instance identifier s-c4a57a45f84c97312b675fff9772b026)
+10038.116 (9) Error message: هیچ تنظیمات FTP پیدا نشد.
+10038.117 (9) An error condition has occurred for the first time during this job
+10038.121 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+10038.123 (9) Number of backup sets in history: 4; groups (db): 1
+10038.124 (9) Examining (for databases) backup set with group_id=0, nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+10038.125 (9) Examining (for databases) backup set with group_id=0, nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+10038.125 (9) Examining (for databases) backup set with group_id=0, nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+10038.125 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+10038.126 (9) Examining (for databases) backup set with group_id=0, nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+10038.126 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+10038.126 (9) Number of backup sets in history: 4; groups (files): 1
+10038.128 (9) Examining (for files) backup set with nonce=3107e555a3ac, datestamp=1687939868 (Jun 28 2023 08:11:08)
+10038.128 (9) This backup set is the backup set just made, so will not be deleted.
+10038.129 (9) This backup set is the backup set just made, so will not be deleted.
+10038.129 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+10038.130 (9) Examining (for files) backup set with nonce=585b30fb771d, datestamp=1687851214 (Jun 27 2023 07:33:34)
+10038.130 (9) This backup set remains non-empty (f=1/d=0); will retain in history
+10038.130 (9) Examining (for files) backup set with nonce=59a2a83e1e2f, datestamp=1687389247 (Jun 21 2023 23:14:07)
+10038.130 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+10038.132 (9) Examining (for files) backup set with nonce=ac315e136abf, datestamp=1686783785 (Jun 14 2023 23:03:05)
+10038.132 (9) This backup set remains non-empty (f=0/d=1); will retain in history
+10038.132 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+10038.135 (9) Resume backup (3107e555a3ac, 9): finish run
+10038.136 (9) [Info] Lock option (updraft_lock_3107e555a3ac, hdm_options) released
+10038.139 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+10038.142 (9) No email will/can be sent - the user has not configured an email address.
+10038.143 (9) تلاش برای ایجاد پشتیبان گیری انجام شد , اما ظاهرا نا موفق بوده .
