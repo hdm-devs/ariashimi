@@ -1,3 +1,5 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
 .col-md-6.Email-Call {
     display: flex;
 }
@@ -18,4 +20,5 @@
 
 .Cal-header a img {
     width: 25px;
-}
+}</style>
+<!-- end Simple Custom CSS and JS -->

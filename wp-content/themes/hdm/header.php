@@ -31,26 +31,30 @@
 <body <?=body_class();?>>
 
 <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="Email-Header">
-                    <a href="mailto:test@gmail.com">
-                        <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/mail.png" alt="ایمیل">
-                        <p>ایمیل</p>
-                    </a>
+    <div class="Login-Social">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="Sign-Social">
+                        <div class="Sign-in"></div>
+                        <div class="Social-Header">
+                            <a href="instagram.com"><img src="http://localhost/ariashimi/wp-content/uploads/2023/07/instagram.png" alt=""></a>
+                            <a href="telegram.com"><img src="http://localhost/ariashimi/wp-content/uploads/2023/07/telegram-1.png" alt=""></a>
+                            <a href="wa.com"><img src="http://localhost/ariashimi/wp-content/uploads/2023/07/whatsapp-1.png" alt=""></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="Cal-header">
-                    <a href="cal:+982144894900">
-                        <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/phone-call.png" alt="تماس با ما">
-                        <p>تلفن تماس:10-44894900-021</p>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <div class="Sign-in"></div>
-                    <div class="Social-Header"></div>
+                <div class="col-md-6 Email-Call">
+                    <div class="Email-Header">
+                        <a href="mailto:test@gmail.com">
+                            <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/mail.png" alt="ایمیل">
+                        </a>
+                    </div>
+                    <div class="Cal-header">
+                        <a href="cal:+982144894900">
+                            <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/phone-call.png" alt="تماس با ما">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
