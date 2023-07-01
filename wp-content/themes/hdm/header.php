@@ -30,65 +30,50 @@
 </head>
 <body <?=body_class();?>>
 
-<!--<header>-->
-<!--    <div class="Logo">-->
-<!--        <div class="col-md-2">-->
-<!--            <a href="http://aryashimi.com" >-->
-<!--                <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png" alt="">-->
-<!--            </a>-->
-<!--            gfgfg-ghgh-->
-<!--        </div>-->
-<!--        <div class="col-md-6">-->
-<!--             <div class="navMenu">-->
-<!--             --><?php //=wp_nav_menu(array("theme_location" => "main_menu" , "menu_class" => "mobile_main_menu"))?>
-<!--             </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</header>-->
-    <header>
-        <div class="first_header">
-          <div class="cntainer">
-            <div class="row">
-              <div class="col-md-6">
-                 <li class="Email">
-                     <a href="cal:+982144894900"></a>
-                     <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/call-calling.png" alt="">
-                     <p>تلفن تماس:10-44894900-021</p>
-                 </li>
-              </div>
-              <div class="col-md-6">
-                  <li>
-                      <a href="http://localhost/ariashimi/my-account" type="10" class="digits-login-modal">
-                          <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/user.png" alt="">
-                          <p>
-                              <span href="http://localhost/ariashimi/my-account" onclick="" attr-disclick="" class=digits-login-model" type="10">
-                                  <span>حساب کاربری من</span>
-                              </span>
-                          </p>
-                      </a>
-                  </li>
-              </div>
-             </div>
-          </div>
-        </div>
-        <div class="header_menu">
-            <div class="container">
-                <div class="row">
-                <div class="col-md-3">
-                    <div class="Logo">
-                        <a href="localhost/ariashimi">
-                            <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png" alt="" class="header-logo">
-                        </a>
-                    </div>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="Email-Header">
+                    <a href="mailto:test@gmail.com">
+                        <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/mail.png" alt="ایمیل">
+                        <p>ایمیل</p>
+                    </a>
                 </div>
-                <div class="col-md-6">
+                <div class="Cal-header">
+                    <a href="cal:+982144894900">
+                        <img src="http://localhost/ariashimi/wp-content/uploads/2023/07/phone-call.png" alt="تماس با ما">
+                        <p>تلفن تماس:10-44894900-021</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="Sign-in"></div>
+                    <div class="Social-Header"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="Logo-Header">
+                    <a href="localhost/ariashimi">
+                        <img src="http://localhost/ariashimi/wp-content/uploads/2023/06/logo-aryashimi.png" alt="ariashimi">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="Menu-header">
                     <?=wp_nav_menu(array("theme_location" => "main_menu" , "menu_class" => "mobile_main_menu"))?>
-                <div class="col-md-3">
-                    <div class="search">
-                        </form>
-                    </div>
+                </div>
+             </div>
+            <div class="col-md-3">
+                <div class="Search">
                 </div>
             </div>
-            </div>
         </div>
-    </header>
+    </div>
+</header>
