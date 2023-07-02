@@ -33,4 +33,54 @@
 </head>
 <body <?=body_class();?>>
 
+<header>
+    <div class="top">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <ul class="email_phone_list">
+                    <li>
+                        <a href="mail:info@aryashimi.com">
+                            <i class="las la-envelope-open"></i>
+                            <span>info@aryashimi.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:02144894900">
+                            <i class="las la-phone-alt"></i>
+                            <span>021-44894900-10</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="col-md-6">
+                <ul class="social_list">
+                    <li>
+                        <a href="#">
+                            <i class="lab la-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="lab la-telegram-plane"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="lab la-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bottom"></div>
+</header>
+
 
