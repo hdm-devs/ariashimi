@@ -80,7 +80,39 @@
         </div>
 
     </div>
-    <div class="bottom"></div>
+    <div class="bottom">
+
+        <div class="row">
+
+            <div class="col-md-9">
+
+                <a class="logo" href="<?=bloginfo('url')?>">
+                    <img src="<?=wp_get_attachment_url(6)?>">
+                </a>
+
+                <?=wp_nav_menu(array("menu" => 5 , "menu_class" => "header menu"))?>
+
+            </div>
+            <div class="col-md-3">
+                <ul class="Search_call">
+                    <li>
+                       <a href="#" class="search">
+                           <i class="las la-search"></i>
+                           <span>جستجو</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="tel:02144894900">
+                            <i class="las la-phone-alt"></i>
+                            <span>021-44894900-10</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
 </header>
 
 
