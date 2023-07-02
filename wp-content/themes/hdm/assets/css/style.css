@@ -45,3 +45,141 @@ header .top {
     border-bottom: 1px solid #ffffff1c;
     width: 100%;
 }
+
+header .bottom {
+    float: right;
+    width: 100%;
+    padding: 10px 0;
+}
+header .bottom .logo {
+    float: right;
+    width: 86px;
+    margin: 0 0 0 45px;
+}
+header .bottom .logo img {
+    float: right;
+    width: 100%;
+}
+header .menu-\%d9\%85\%d9\%86\%d9\%88-\%d8\%a7\%d8\%b5\%d9\%84\%db\%8c-container {
+    float: right;
+    margin: 0;
+}
+
+header .header_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header .header_menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 24px;
+    float: right;
+    font-size: 15px;
+}
+header .col-md-9 {
+    display: flex;
+    align-items: center;
+}
+header .Search_call {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+header .Search_call li a {
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 40px 0 0;
+}
+header .Search_call li {
+    margin: 0;
+}
+header .col-md-3 {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+footer .footer-logo {
+    width: 60px;
+}
+footer {
+    float: right;
+    width: 100%;
+    padding: 50px 60px 60px 0;
+    background: #1f1f1f;
+}
+footer p {
+    color: #999999;
+    font-size: 14px;
+    float: right;
+    line-height: 1.8;
+    margin: 10px 0 10px 0;
+}
+footer #email_subscribe {
+    color: #fff;
+    float: right;
+    width: 100%;
+}
+footer .input {
+    display: flex;
+    flex-wrap: nowrap;
+    float: right;
+    border: 1px solid #424242;
+    width: 100%;
+    padding: 10px;
+}
+footer .input .form-control {
+    width: 80%;
+    margin: 0;
+    background: transparent;
+    border: 0;
+    font-size: 14px;
+}
+footer .input .go {
+    width: 20%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+footer .input .go span {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+footer .input .go i {
+    margin: 0;
+    padding: 0 6px 0 0;
+}
+
+footer #email_subscribe span {
+    font-size: 14px;
+}
+
+footer .footer-title {
+    color: #fff;
+}
+footer .footer_menu {
+    list-style: none;
+    float: right;
+    margin: 13px 0 0 0;
+    padding: 0;
+}
+footer .footer_menu {
+}
+footer .footer_menu li a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    padding: 8px 0;
+    float: right;
+}
+footer .col-md-8 {
+    padding-right: 50px;
+}

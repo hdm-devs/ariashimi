@@ -90,7 +90,7 @@
                     <img src="<?=wp_get_attachment_url(6)?>">
                 </a>
 
-                <?=wp_nav_menu(array("menu" => 5 , "menu_class" => "header menu"))?>
+                <?=wp_nav_menu(array("menu" => 5 , "menu_class" => "header_menu"))?>
 
             </div>
             <div class="col-md-3">

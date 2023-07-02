@@ -9,6 +9,7 @@ function register_my_menus(){
         array(
             'main_menu' => __('منو اصلی'),
             'footer_menu' => __('منو فوتر'),
+            'footer_menu_2' => __(' منو فوتر ۲'),
             'access_menu' => __('دسترسی سریع'),
 
         )
