@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/owl.carousel.css">
     <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/fonts/Yekanbakh//YekanBakhs-font.css">
-    <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/style.css?var<?=rand(1000,10000)?>">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 <body <?=body_class();?>>
