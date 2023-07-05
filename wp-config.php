@@ -18,18 +18,30 @@
  * @package WordPress
  */
 
+ $server = "$_SERVER[HTTP_HOST]";
+ $folder = "$_SERVER[REQUEST_URI]";
+ 
+ if (str_contains($server, 'localhost')) {
+	/** Database hostname */
+	define( 'DB_HOST', '45.135.243.216:3306' );
+
+ }
+else{
+	/** Database hostname */
+	define( 'DB_HOST', 'localhost' );
+
+}
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ariashimi' );
+define( 'DB_NAME', 'aryashimi_hdm' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'aryashimi_hdm' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '@8]vD}twxps8' );
 
-/** Database hostname */
-define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -94,3 +106,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define( 'WP_HOME', "http://localhost/ariashimi" );
+define( 'WP_SITEURL', "http://localhost/ariashimi" );
