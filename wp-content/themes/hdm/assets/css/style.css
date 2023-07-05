@@ -183,3 +183,6 @@ footer .footer_menu li a {
 footer .col-md-8 {
     padding-right: 50px;
 }
+.row {
+    margin: 0 !important;
+}
