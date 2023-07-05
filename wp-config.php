@@ -24,6 +24,8 @@
  if (str_contains($server, 'localhost')) {
 	/** Database hostname */
 	define( 'DB_HOST', '45.135.243.216:3306' );
+	define( 'WP_HOME', "http://localhost/ariashimi" );
+	define( 'WP_SITEURL', "http://localhost/ariashimi" );
 
  }
 else{
@@ -107,5 +109,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
 
-define( 'WP_HOME', "http://localhost/ariashimi" );
-define( 'WP_SITEURL', "http://localhost/ariashimi" );
