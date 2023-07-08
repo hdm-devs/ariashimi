@@ -186,3 +186,17 @@ footer .col-md-8 {
 .row {
     margin: 0 !important;
 }
+
+
+
+/* About us section */
+
+.outline span {
+    -webkit-text-stroke: 1px #dc520e;
+    color: #fff0!important;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -60px;
+    right: -127px;
+    margin: 45px auto;
+}
